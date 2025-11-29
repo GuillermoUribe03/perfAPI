@@ -37,17 +37,17 @@ Desarrollar una API que implemente diferentes mecanismos para analizar el rendim
 
 En concreto, la API permite:
 
-Consultar métricas de CPU, memoria, E/S de disco y E/S de red del sistema.
+   - Consultar métricas de CPU, memoria, E/S de disco y E/S de red del sistema.
 
-Consultar métricas detalladas de un proceso específico (por PID).
+   - Consultar métricas detalladas de un proceso específico (por PID).
 
-Mantener un histórico de métricas de sistema y obtener un resumen temporal.
+   - Mantener un histórico de métricas de sistema y obtener un resumen temporal.
 
-Registrar funciones de la aplicación y perfilarlas:
+   - Registrar funciones de la aplicación y perfilarlas:
 
-Modo estándar (tiempo/cumtime por función).
+      - Modo estándar (tiempo/cumtime por función).
 
-Modo detallado (tiempo + uso de memoria y E/S por ejecución).
+      -Modo detallado (tiempo + uso de memoria y E/S por ejecución).
 
 ---
 ## 3. Estructura del proyecto
