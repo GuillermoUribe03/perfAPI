@@ -42,12 +42,11 @@ En concreto, la API permite:
    - Consultar métricas detalladas de un proceso específico (por PID).
 
    - Mantener un histórico de métricas de sistema y obtener un resumen temporal.
-
+     
    - Registrar funciones de la aplicación y perfilarlas:
 
-      - Modo estándar (tiempo/cumtime por función).
-
-      -Modo detallado (tiempo + uso de memoria y E/S por ejecución).
+     -   Modo estándar (tiempo/cumtime por función).
+     -   Modo detallado (tiempo + uso de memoria y E/S por ejecución).
 
 ---
 ## 3. Estructura del proyecto
